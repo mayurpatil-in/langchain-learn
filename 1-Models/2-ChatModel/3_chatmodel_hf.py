@@ -8,7 +8,7 @@ llm = HuggingFaceEndpoint(
     repo_id="HuggingFaceH4/zephyr-7b-beta",
     task="text-generation",
     max_new_tokens=128,
-    temperature=0.3,
+    temperature=0.2,
 )
 
 model = ChatHuggingFace(llm=llm)
